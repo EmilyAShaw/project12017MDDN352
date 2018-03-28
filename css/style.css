@@ -8,11 +8,16 @@
 *{
 	box-sizing: border-box; 
 	/* This makes the widths of elements more consistent
-		Full details here https://css-tricks.com/box-sizing/ */
+		refrence: https://css-tricks.com/box-sizing/ */
 }
 div.features{
 	padding-top: 40%;
 	padding-bottom: 5%
+}
+div.flatgraphics{
+	float: center;
+	padding-left: 0%;
+	padding-top:3%;
 }
 
 div.boxBanner{
@@ -28,7 +33,7 @@ iframe{
 }
 
 body{
-	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	margin: 0px; 
 	font-family: Adam;
 	text-align: center;
 }
@@ -54,7 +59,7 @@ nav{
 	height: 4em;
 	background-color: #f7f7f7;
 	color: black;
-	font-size:1.2em;
+	font-size:1.1em;
 	padding-top: 0.45em;
 	position: fixed;
 	left: 0;
